@@ -11,8 +11,9 @@ Dieses Verzeichnis enthält alle Architekturentscheidungen und technischen Desig
 | [02_import_pipelines.md](./02_import_pipelines.md) | Datenfluss pro Quelle (Excel, vCard, LinkedIn) | ✅ |
 | [03_deployment_nas.md](./03_deployment_nas.md) | Docker Setup auf Synology NAS, Netzwerk, Volumes | ✅ |
 | [04_backup_strategie.md](./04_backup_strategie.md) | 3-2-1-Backup, pg_dump, Hyper Backup auf ext. HDD, Recovery | ✅ |
-| [05_deduplizierung.md](./05_deduplizierung.md) | Logik zur Duplikatserkennung und -bereinigung | 🔲 |
-| [06_erweiterungen.md](./06_erweiterungen.md) | Geplante weitere Quellen (Xing, Google, Apple Mail) | 🔲 |
+| [05_secrets_management.md](./05_secrets_management.md) | Passwörter & Credentials: SOPS + Age Verschlüsselung | ✅ |
+| [06_deduplizierung.md](./06_deduplizierung.md) | Logik zur Duplikatserkennung und -bereinigung | 🔲 |
+| [07_erweiterungen.md](./07_erweiterungen.md) | Geplante weitere Quellen (Xing, Google, Apple Mail) | 🔲 |
 
 ## Konventionen
 
