@@ -12,8 +12,9 @@ Dieses Verzeichnis enthält alle Architekturentscheidungen und technischen Desig
 | [03_deployment_nas.md](./03_deployment_nas.md) | Docker Setup auf Synology NAS, Netzwerk, Volumes | ✅ |
 | [04_backup_strategie.md](./04_backup_strategie.md) | 3-2-1-Backup, pg_dump, Hyper Backup auf ext. HDD, Recovery | ✅ |
 | [05_secrets_management.md](./05_secrets_management.md) | Passwörter & Credentials: SOPS + Age Verschlüsselung | ✅ |
-| [06_deduplizierung.md](./06_deduplizierung.md) | Logik zur Duplikatserkennung und -bereinigung | 🔲 |
-| [07_erweiterungen.md](./07_erweiterungen.md) | Geplante weitere Quellen (Xing, Google, Apple Mail) | 🔲 |
+| [06_ui_und_api.md](./06_ui_und_api.md) | NocoDB Web-UI, automatische REST API, Phase-2-Frontend | ✅ |
+| [07_deduplizierung.md](./07_deduplizierung.md) | Logik zur Duplikatserkennung und -bereinigung | 🔲 |
+| [08_erweiterungen.md](./08_erweiterungen.md) | Geplante weitere Quellen (Xing, Google, Apple Mail) | 🔲 |
 
 ## Konventionen
 

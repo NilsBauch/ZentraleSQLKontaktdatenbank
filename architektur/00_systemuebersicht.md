@@ -32,12 +32,22 @@ graph LR
 
     subgraph NAS["🖥️ Synology NAS (Docker)"]
         DB[(PostgreSQL 15)]
-        UI[Adminer\nWeb-UI :8088]
-        UI --> DB
+        NOCODB["NocoDB :8090\nWeb-UI + REST API"]
+        ADMINER["Adminer :8088\nDB-Admin"]
+        NOCODB --> DB
+        ADMINER --> DB
+    end
+
+    subgraph Clients["Clients"]
+        BROWSER["🌐 Browser / Handy\nNocoDB UI"]
+        RESTAPI["🔌 REST API\n/api/v1/..."]
+        FUTURE["🔮 Eigenes Frontend\n(Phase 2, optional)"]
     end
 
     Q1 & Q2 & Q3 & Q4 & Q5 --> P1
     P4 -->|Port 5432| DB
+    BROWSER --> NOCODB
+    RESTAPI & FUTURE -->|Bearer Token| NOCODB
 ```
 
 ---
